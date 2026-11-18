@@ -1,0 +1,24 @@
+# виртуальное окружение
+.venv/
+venv/
+
+# кэш Python и pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# данные секвенирования (большие файлы, скачиваются отдельно)
+data/*
+!data/.gitkeep
+*.fastq
+*.fastq.gz
+*.fq
+
+# промежуточные результаты диагностики
+largest_group_reads.fasta
+results/real_*/
+
+# системные файлы и редакторы
+.DS_Store
+Thumbs.db
+.vscode/
